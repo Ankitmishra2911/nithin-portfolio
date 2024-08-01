@@ -1,5 +1,6 @@
 
-**Cloning an React project and running locally**
+<img width="1440" alt="Screenshot 2024-08-02 at 12 41 03 AM" src="https://github.com/user-attachments/assets/c018ea44-707d-4a8e-a1e1-bc3faa1e11e6">
+
 
 
 
