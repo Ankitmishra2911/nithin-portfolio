@@ -1,17 +1,13 @@
 
 import React from "react";
-import vpn from '../assets/vpn.png'
-import copeople from '../assets/copeople.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title=='Snap Shot' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={vpn} alt="" />
-            </a>}
+
             {title=='Co People' && <a href="#">
-                <img className="w-full rounded-t-lg h-auto object-cover " src={copeople} alt="" />
+                <img className="w-full rounded-t-lg h-auto object-cover " src="https://private-user-images.githubusercontent.com/98656735/352583416-c2ac373d-74a5-4797-8c4c-4eb5727c504c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjI1Mzc5ODksIm5iZiI6MTcyMjUzNzY4OSwicGF0aCI6Ii85ODY1NjczNS8zNTI1ODM0MTYtYzJhYzM3M2QtNzRhNS00Nzk3LThjNGMtNGViNTcyN2M1MDRjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODAxVDE4NDEyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ1MDEzZDE4MTNmMzJiMGY3NGQ1OGIyYzc1YWNhNThmMTFmMjQ1ZDdkNWE2MTUzNzJhZGUwODQ5YjViMzYxYTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5hcXHbFei_3svXsYX5hQPQGSr60bCU9TQkWDRRiXay0" alt="" />
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -60,19 +56,12 @@ const Projects = () => {
 
 export const project = [
     {
-        title:'Co People',
-        description:'Co People is a dynamic web application I crafted using React, Node JS and React. This project is a modern and engaging social platform that allows users to connect, share content and interact seamlessly.',
-        image: {vpn},
-        git:'https://github.com/nithingooud/CoPeople',
-        technologies:['MongoDb' ,'ReactJS' , 'NodeJS']
-    },
-    {
-        title:'Snap Shot',
-        description:'SnapShot is a stunning portfolio that I exclusively designed using React JS and tailwind CSS.This Project serves as a representation of a photographer’s work, highlighting their portfolio and services.',
-        image: {copeople},
-        git:"https://github.com/nithingooud/vpn_studios",
-        technologies:[ 'React JS', 'tailwind CSS']
+        title:'CTZ - A Digital Marketplace for College Students',
+        description:'CTZ is a dynamic web application I crafted using ReactJS, Node JS and PostgreSQL. Developed a comprehensive digital marketplace platform tailored for college students, facilitating the buying, selling, and renting of various items.',
+        git:'https://github.com/Ankitmishra2911/newapp',
+        technologies:['PostgreSQL' ,'ReactJS' , 'NodeJS']
     }
+   
 ]
 
 export default Projects
